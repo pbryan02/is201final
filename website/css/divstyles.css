@@ -1,0 +1,88 @@
+/* General body styles */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    align-items: center;
+    background: #f4f4f4;
+}
+
+/* Main content styling */
+main {
+    flex: 1 0 auto; /* Allows the main content to expand and push the footer down */
+    width: 100%; /* Full width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Styles for common div classes */
+.common {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Style for the navigation bar */
+.nav {
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-align: left; /* Aligns links to the left */
+    background-color: #f8f8f8; /* Adds a light background to the nav bar */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Links in the navigation bar */
+.nav a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px; /* Adjust spacing between links */
+    padding: 10px;
+    background: #ddd;
+    border-radius: 5px;
+}
+
+/* Hover effect for links */
+.nav a:hover {
+    background-color: #ccc;
+}
+
+/* Top div styling */
+.top {
+    background-color: #007BFF;
+    color: white;
+    width: 100%; /* Full width */
+    margin-top: 40px; /* Adds space above the top section to accommodate nav bar */
+}
+
+/* Bottom div styling */
+.bottom {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    flex-shrink: 0; /* Prevents the footer from shrinking */
+}
+
+/* Content div styling */
+.common-content {
+    width: 80%;
+    max-width: 960px; /* Adjust width as per your content size */
+    margin: 20px auto; /* Centers the content horizontally and adds vertical space */
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin: 0;
+}

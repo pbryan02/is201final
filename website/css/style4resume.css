@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    margin: 0;
+}
+
+header {
+    background-color: #006bb7;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.header-content, .navigation {
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    background-color: #000000;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ffffff;
+}
+
+ul {
+    list-style-type: disc; /* Ensures that bullet points are used */
+    padding-left: 20px;    /* Adds padding to align bullets properly */
+}
+
+li {
+    margin-bottom: 10px;   /* Space between items */
+}
+

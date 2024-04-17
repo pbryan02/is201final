@@ -1,0 +1,74 @@
+body {
+    background-color: #004080; /* Dark blue background */
+    color: white !important; /* Sets all text color to white */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+h5 {
+    text-align: center;
+    font-style: italic; 
+}
+
+a:visited {
+    color: deeppink;
+}
+
+.img, .imgcenter {
+    display: block; /* Centers the image */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    margin-bottom: 55px; /* You can adjust this based on your layout needs */
+}
+
+.figure {
+    display: block;
+    text-align: center; /* Centers the content of the figure */
+    margin-left: auto;
+    margin-right: auto; /* Centers the figure block horizontally */
+    width: fit-content; /* Ensures the figure width matches the content */
+}
+
+figcaption {
+    color: white; /* Uses the color for the caption */
+    font-style: italic; /* Italicize the caption */
+    text-align: center; /* Centers the caption text below the image */
+}
+
+.video iframe {
+    display: block; /* Ensures the iframe behaves as a block element */
+    margin-left: auto;
+    margin-right: auto; /* Centers the iframe */
+}
+
+.rizz {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 47, 88);
+    font-style: italic;
+    padding: 10px; /* Adds padding for better visual spacing */
+    text-align: center; /* Centers the text inside the div */
+    margin: auto; /* Horizontally centers the block if it has a set width */
+    width: 80%; /* Adjust width as needed */
+    display: block; /* Ensures it's treated as a block for centering */
+    box-sizing: border-box; /* Includes padding in width calculation */
+}
+
+
+
+/* .rizz:hover{
+    font-family:Arial, Helvetica, sans-serifl;
+    color: blue;
+    background-color: green;
+    } */
+    
